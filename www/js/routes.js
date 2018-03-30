@@ -9,7 +9,7 @@ angular.module('app.routes', [])
   $stateProvider
     
 
-      .state('menu.minhasPortas', {
+  .state('menu.minhasPortas', {
     url: '/portas',
     views: {
       'side-menu21': {
@@ -38,7 +38,7 @@ angular.module('app.routes', [])
   })
 
   .state('menu.porta', {
-    url: '/porta',
+    url: '/porta/:id',
     views: {
       'side-menu21': {
         templateUrl: 'templates/porta.html',
